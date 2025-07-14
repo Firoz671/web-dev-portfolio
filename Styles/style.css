@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Shared */
+.azeret-font{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+/* Header */
+nav ul{
+    display: flex;
+    gap: 33px;
+    padding: 27px;
+    justify-content: end;
+    margin-right: 60px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: blue;
+}
+
+/* Hero */
+header .hero-section{
+    padding: 70px;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 48px;
+    width: 60%;
+}
+.hero-data .hero-title{
+    text-align: justify;
+    font-size: 44px;
+    font-weight: 600;
+}
+.hero-data .hero-description{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+}
+.hero-section img{
+    width: 243px;
+    height: 243px;
+    border-radius: 100%;
+}
+.hero-section button{
+    width: 208px;
+    height: 47px;
+    background-color: #FF6464;
+    color: #FFFFFF;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+}
